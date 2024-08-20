@@ -6,3 +6,8 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+
+/*const engineType = new engine{
+    
+}*/

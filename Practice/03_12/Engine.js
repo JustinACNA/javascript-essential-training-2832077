@@ -5,7 +5,34 @@
  * Class expression:  const Name = class {}
  */
 
-class Backpack {
+class engine {
+  constructor(
+  name,
+  material,
+  cylinders,
+  injectionType,
+  intakeSize,
+  exhaustSize,
+  rpm,
+  nitrousOpen,
+  newRedline,
+) {
+  this.name = name;
+  this.material = material;
+  this.cylinders = cylinders;
+  this.injectionType = injectionType;
+  this.intakeSize = intakeSize;
+  this.exhaustSize = exhaustSize;
+  this.rpm = rpm;
+  this.nitrousOpen = nitrousOpen;
+  this.newRedline = newRedline;
+}
+
+}; 
+
+
+
+/*class Backpack {
   constructor(
     // Defines parameters:
     name,
@@ -38,3 +65,4 @@ class Backpack {
 }
 
 export default Backpack;
+*/
